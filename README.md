@@ -1,3 +1,5 @@
+### Copied from https://github.com/attm2x/m2x-arduino
+
 Arduino M2X API Client
 =====================
 
@@ -206,7 +208,7 @@ And the following 2 reader functions are provided:
 Returned values
 ---------------
 
-For all those functions, the HTTP status code will be returned if we can fulfill an HTTP request. For example, `200` will be returned upon success, and `401` will be returned if we didn't provide a valid M2X API Key. A full-list of M2X API error codes can be found here: [M2X API Error Codes] (https://m2x.att.com/developer/documentation/overview#Client-Errors)
+For all those functions, the HTTP status code will be returned if we can fulfill an HTTP request. For example, `200` will be returned upon success, and `401` will be returned if we didn't provide a valid M2X API Key. A full-list of M2X API error codes can be found here: [M2X API Error Codes](https://m2x.att.com/developer/documentation/overview#Client-Errors)
 
 Otherwise, the following error codes will be used:
 
